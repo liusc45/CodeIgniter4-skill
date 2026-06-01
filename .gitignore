@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local notes / drafts
+DRAFT.md
+NOTES.md
+TODO.md
+.notes/
+
+# Logs
+*.log
+
+# Node (in case docs include Vite/Tailwind examples)
+node_modules/
