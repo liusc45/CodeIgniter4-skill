@@ -1,10 +1,10 @@
 # CodeIgniter 4 Skill
 
-A comprehensive [Agent Skill](https://skills.sh/) for building modern CodeIgniter 4 applications — covering full-stack web apps (HTML/CSS/JS), REST APIs for SPA frontends (React/Angular/Vue), Shield authentication, and multi-server Docker deployments (Apache, Nginx + PHP-FPM, Caddy + PHP-FPM, FrankenPHP).
+A comprehensive [Agent Skill](https://skills.sh/) for building **clean, efficient, maintainable** CodeIgniter 4 applications — covering full-stack web apps (HTML/CSS/JS), REST APIs for SPA frontends (React/Angular/Vue), Shield authentication, and multi-server Docker deployments (Apache, Nginx + PHP-FPM, Caddy + PHP-FPM, FrankenPHP).
 
 Works for **new projects** AND **legacy CI3 → CI4 migrations**.
 
-**Grounded in real production patterns from the Sistematlan team** (`lotemanager` baseline) with Context7-validated improvements drawn from comparing it against legacy codebases (`acolhuas`). The skill respects the team's existing conventions and only proposes improvements with citations to the official CI4 user guide.
+**This skill actively improves the team's code toward clean code and SOLID principles.** It knows the Sistematlan team's current style (`lotemanager` baseline) and uses it as a starting point — but every line of code it produces is held to higher standards: PSR-12, PHPStan level 6, fat-models/thin-controllers, dependency injection, DB transactions, native CORS, CSRF, audit callbacks, typed exceptions, and full test coverage. Every recommendation cites the official CI4 user guide (Context7-validated).
 
 ## Install
 
@@ -32,7 +32,7 @@ The main skill manifest with:
 
 ### `references/`
 
-20 deep-dive reference documents:
+21 deep-dive reference documents:
 
 | # | Topic | Description |
 |---|-------|-------------|
@@ -54,8 +54,9 @@ The main skill manifest with:
 | 16 | Legacy CI3 → CI4 | Migration strategies, code translation map |
 | 17 | Best Practices | Naming, conventions, security, performance |
 | 18 | Production Deployment | Checklist, OPcache, zero-downtime, CI/CD |
-| **19** | **Team Patterns (lotemanager)** | **Sistematlan baseline — naming, controllers, models, views, frontend, auth, routes** |
-| **20** | **Legacy Patterns to Fix (acolhuas)** | **Anti-patterns + Context7-grounded fixes for older CI4 codebases** |
+| **19** | **Team Patterns (lotemanager)** | **Sistematlan baseline — current state of conventions** |
+| **20** | **Legacy Patterns to Fix (acolhuas)** | **13 anti-patterns + Context7-grounded fixes for older CI4** |
+| **21** | **Clean Code & Efficiency** | **MANDATORY — naming, function size, SRP, DRY, error handling, security, performance, tooling (PHPStan/Rector/CS-Fixer)** |
 
 ## Quick Tour
 
