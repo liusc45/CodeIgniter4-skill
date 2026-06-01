@@ -4,6 +4,8 @@ A comprehensive [Agent Skill](https://skills.sh/) for building modern CodeIgnite
 
 Works for **new projects** AND **legacy CI3 → CI4 migrations**.
 
+**Grounded in real production patterns from the Sistematlan team** (`lotemanager` baseline) with Context7-validated improvements drawn from comparing it against legacy codebases (`acolhuas`). The skill respects the team's existing conventions and only proposes improvements with citations to the official CI4 user guide.
+
 ## Install
 
 Install globally with one command:
@@ -30,7 +32,7 @@ The main skill manifest with:
 
 ### `references/`
 
-18 deep-dive reference documents:
+20 deep-dive reference documents:
 
 | # | Topic | Description |
 |---|-------|-------------|
@@ -52,6 +54,8 @@ The main skill manifest with:
 | 16 | Legacy CI3 → CI4 | Migration strategies, code translation map |
 | 17 | Best Practices | Naming, conventions, security, performance |
 | 18 | Production Deployment | Checklist, OPcache, zero-downtime, CI/CD |
+| **19** | **Team Patterns (lotemanager)** | **Sistematlan baseline — naming, controllers, models, views, frontend, auth, routes** |
+| **20** | **Legacy Patterns to Fix (acolhuas)** | **Anti-patterns + Context7-grounded fixes for older CI4 codebases** |
 
 ## Quick Tour
 
